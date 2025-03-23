@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body{
+            background-color: aqua;
+            background-image: url(bird.jpg);
+            background-repeat: no-repeat;
+            background-position: top right;
+           background-attachment: fixed;
+        }*/
+        #grad1 {
+            background-image: linear-gradient(to top right, red, orange, yellow, green, blue, indigo, violet);
+            width: 200px;
+            height: 200px;
+        }
+
+        #an1 {
+
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 10s;
+        }
+
+        @keyframes example {
+            0% {
+                background-color: red;
+            }
+
+            25% {
+                background-color: rgb(238, 255, 0);
+            }
+
+            50% {
+                background-color: rgb(0, 255, 72);
+            }
+
+            75% {
+                background-color: rgb(0, 30, 255);
+            }
+
+            100% {
+                background-color: rgb(212, 0, 255);
+            }
+
+        }
+    </style>
+</head>
+
+
+<body>
+    background makes the page more attractive.
+    <div id="grad1">
+        This page is gradient.
+    </div>
+    <div id="an1">
+
+    </div>
+</body>
+
+</html>
